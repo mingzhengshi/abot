@@ -1,5 +1,9 @@
-bin
-obj
+Database/
+bin/
+obj/
+
+
+
 
 # Windows image file caches
 Thumbs.db
