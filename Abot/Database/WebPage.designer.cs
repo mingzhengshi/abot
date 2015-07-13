@@ -84,6 +84,8 @@ namespace Abot.Database
 		
 		private string _pageUrl;
 		
+		private string _parentUrl;
+		
 		private string _pageHtml;
 		
     #region Extensibility Method Definitions
@@ -94,6 +96,8 @@ namespace Abot.Database
     partial void OnpageIdChanged();
     partial void OnpageUrlChanging(string value);
     partial void OnpageUrlChanged();
+    partial void OnparentUrlChanging(string value);
+    partial void OnparentUrlChanged();
     partial void OnpageHtmlChanging(string value);
     partial void OnpageHtmlChanged();
     #endregion
@@ -123,7 +127,7 @@ namespace Abot.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageUrl", DbType="NChar(200) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageUrl", DbType="NVarChar(MAX) NOT NULL", CanBeNull=false)]
 		public string pageUrl
 		{
 			get
@@ -143,7 +147,27 @@ namespace Abot.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageHtml", DbType="NChar(10) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_parentUrl", DbType="NVarChar(MAX) NOT NULL", CanBeNull=false)]
+		public string parentUrl
+		{
+			get
+			{
+				return this._parentUrl;
+			}
+			set
+			{
+				if ((this._parentUrl != value))
+				{
+					this.OnparentUrlChanging(value);
+					this.SendPropertyChanging();
+					this._parentUrl = value;
+					this.SendPropertyChanged("parentUrl");
+					this.OnparentUrlChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageHtml", DbType="NVarChar(MAX) NOT NULL", CanBeNull=false)]
 		public string pageHtml
 		{
 			get

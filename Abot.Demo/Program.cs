@@ -17,19 +17,24 @@ namespace Abot.Demo
 {
     class Program
     {
+        private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
+            
         static void Main(string[] args)
         {
             log4net.Config.XmlConfigurator.Configure();
             PrintDisclaimer();
 
-            Uri uriToCrawl = GetSiteToCrawl(args);
+            string bd = AppDomain.CurrentDomain.BaseDirectory;
 
+            //Uri uriToCrawl = GetSiteToCrawl(args);
+            string rootUri = "http://www.monash.edu";
+            Uri uriToCrawl = new Uri(rootUri);
             IWebCrawler crawler;
 
             //Uncomment only one of the following to see that instance in action
             //crawler = GetDefaultWebCrawler();
-            crawler = GetManuallyConfiguredWebCrawler();
-            //crawler = GetCustomBehaviorUsingLambdaWebCrawler();
+            //crawler = GetManuallyConfiguredWebCrawler();
+            crawler = GetCustomBehaviorWebCrawler();
 
             //Subscribe to any of these asynchronous events, there are also sychronous versions of each.
             //This is where you process data about specific events of the crawl
@@ -65,10 +70,10 @@ namespace Abot.Demo
             config.IsRespectRobotsDotTextEnabled = false;
             config.IsUriRecrawlingEnabled = false;
             config.MaxConcurrentThreads = 10;
-            config.MaxPagesToCrawl = 100;
-            config.MaxPagesToCrawlPerDomain = 10;
+            config.MaxPagesToCrawl = 10;
+            //config.MaxPagesToCrawlPerDomain = 10;
             //config.MaxPagesToCrawlPerDomain = 0;
-            config.MinCrawlDelayPerDomainMilliSeconds = 1000;
+            config.MinCrawlDelayPerDomainMilliSeconds = 2000;
 
             //Add you own values without modifying Abot's source code.
             //These are accessible in CrawlContext.CrawlConfuration.ConfigurationException object throughout the crawl
@@ -78,6 +83,25 @@ namespace Abot.Demo
             //Initialize the crawler with custom configuration created above.
             //This override the app.config file values
             return new PoliteWebCrawler(config, null, null, null, null, null, null, null, null);
+        }
+
+        private static IWebCrawler GetCustomBehaviorWebCrawler()
+        {
+            IWebCrawler crawler = GetManuallyConfiguredWebCrawler();
+
+            //Register a lambda expression that will make Abot not crawl any url that has the word "ghost" in it.
+            //For example http://a.com/ghost, would not get crawled if the link were found during the crawl.
+            //If you set the log4net log level to "DEBUG" you will see a log message when any page is not allowed to be crawled.
+            //NOTE: This is lambda is run after the regular ICrawlDecsionMaker.ShouldCrawlPage method is run.
+            crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
+            {
+                if (pageToCrawl.Uri.AbsoluteUri.Contains("ghost"))
+                    return new CrawlDecision { Allow = false, Reason = "Scared of ghosts" };
+
+                return new CrawlDecision { Allow = true };
+            });
+
+            return crawler;
         }
 
         private static IWebCrawler GetCustomBehaviorUsingLambdaWebCrawler()
@@ -163,13 +187,14 @@ namespace Abot.Demo
         static void crawler_ProcessPageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
         {
             //Process data
-            var dbContext = new WebPageDataContext(@"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Mingzheng\Documents\GitHub\Macmillan\Code\abot\Abot\Database\webgraph.mdf;Integrated Security=True");
-            IEnumerable<WebPage> wp = dbContext.WebPages.OrderBy(c => c.pageUrl);
+            var dbContext = new WebPageDataContext(connectionString);
+            //IEnumerable<WebPage> wp = dbContext.WebPages.OrderBy(c => c.pageUrl);
 
             WebPage page = new WebPage
             {
                 pageUrl = e.CrawledPage.Uri.ToString(),
-                pageHtml = "inserted page html"
+                parentUrl = e.CrawledPage.ParentUri.ToString(),
+                pageHtml = e.CrawledPage.Content.Text              
             };
 
             dbContext.WebPages.InsertOnSubmit(page);

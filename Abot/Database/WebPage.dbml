@@ -3,8 +3,9 @@
   <Table Name="dbo.WebPage" Member="WebPages">
     <Type Name="WebPage">
       <Column Name="pageId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
-      <Column Name="pageUrl" Type="System.String" DbType="NChar(200) NOT NULL" CanBeNull="false" />
-      <Column Name="pageHtml" Type="System.String" DbType="NChar(10) NOT NULL" CanBeNull="false" />
+      <Column Name="pageUrl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="parentUrl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="pageHtml" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
     </Type>
   </Table>
 </Database>
