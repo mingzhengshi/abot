@@ -1,0 +1,774 @@
+[2015-05-29 15:39:05,035] [9  ] [INFO ] - About to crawl site [http://www.realestate.com.au/]
+[2015-05-29 15:39:05,052] [9  ] [INFO ] - Configuration Values:
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   MaxConcurrentThreads: 1
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-05-29 15:39:05,053] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-05-29 15:39:05,054] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-05-29 15:39:05,055] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-05-29 15:39:05,055] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-05-29 15:39:05,055] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-05-29 15:39:05,055] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-05-29 15:39:05,055] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-05-29 15:39:05,056] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-05-29 15:39:05,056] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-05-29 15:39:05,056] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-05-29 15:39:05,060] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-05-29 15:39:05,060] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-05-29 15:39:05,060] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-05-29 15:39:05,060] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-05-29 15:39:05,061] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-05-29 15:39:05,061] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-05-29 15:39:05,061] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-05-29 15:39:05,061] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-05-29 15:39:05,061] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-05-29 15:39:05,062] [9  ] [INFO ] -   key1: value1
+[2015-05-29 15:39:05,062] [9  ] [INFO ] -   key2: value2
+[2015-05-29 15:39:05,318] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:06,185] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/buy] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:07,263] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-real-estate/login] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:08,285] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-real-estate/register] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:09,322] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/saved-properties] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:10,485] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-property] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:11,185] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-real-estate/saved-searches-and-email-alerts] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:12,235] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-real-estate/profile] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:13,186] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/my-real-estate/account] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:14,199] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.realestate.com.au/logout.ds] Parent:[http://www.realestate.com.au/] Retry:[0]
+[2015-05-29 15:39:14,217] [9  ] [INFO ] - Crawl complete for site [http://www.realestate.com.au/]: Crawled [10] pages in [00:00:09.1537190]
+[2015-05-29 15:44:18,922] [9  ] [INFO ] - About to crawl site [http://www.realestate.com/]
+[2015-05-29 15:44:21,758] [9  ] [INFO ] - Configuration Values:
+[2015-05-29 15:44:21,759] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-05-29 15:44:21,760] [9  ] [INFO ] -   MaxConcurrentThreads: 1
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-05-29 15:44:21,761] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-05-29 15:44:21,762] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-05-29 15:44:21,763] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-05-29 15:44:21,764] [9  ] [INFO ] -   key1: value1
+[2015-05-29 15:44:21,765] [9  ] [INFO ] -   key2: value2
+[2015-05-29 15:47:16,216] [9  ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.realestate.com/] Parent:[http://www.realestate.com/] Retry:[0]
+[2015-05-29 15:47:49,378] [9  ] [INFO ] - Crawl complete for site [http://www.realestate.com/]: Crawled [1] pages in [00:02:32.2904859]
+[2015-05-29 15:52:32,131] [10 ] [INFO ] - About to crawl site [http://www.monash.edu/]
+[2015-05-29 15:52:32,147] [10 ] [INFO ] - Configuration Values:
+[2015-05-29 15:52:32,147] [10 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   Somekey1: SomeValue1
+[2015-05-29 15:52:32,162] [10 ] [INFO ] -   Somekey2: SomeValue2
+[2015-05-29 16:12:41,673] [9  ] [INFO ] - About to crawl site [http://www.monash.edu/]
+[2015-05-29 16:12:41,707] [9  ] [INFO ] - Configuration Values:
+[2015-05-29 16:12:41,707] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-05-29 16:12:41,708] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-05-29 16:12:41,708] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-05-29 16:12:41,708] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-05-29 16:12:41,709] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-05-29 16:12:41,709] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-05-29 16:12:41,709] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-05-29 16:12:41,709] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-05-29 16:12:41,709] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-05-29 16:12:41,710] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-05-29 16:12:41,710] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-05-29 16:12:41,710] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-05-29 16:12:41,710] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-05-29 16:12:41,711] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-05-29 16:12:41,712] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-05-29 16:12:41,712] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-05-29 16:12:41,712] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-05-29 16:12:41,713] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-05-29 16:12:41,713] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-05-29 16:12:41,713] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-05-29 16:12:41,713] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-05-29 16:12:41,714] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-05-29 16:12:41,714] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-05-29 16:12:41,714] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-05-29 16:12:41,714] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-05-29 16:12:41,714] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-05-29 16:12:41,715] [9  ] [INFO ] -   Somekey1: SomeValue1
+[2015-05-29 16:12:41,715] [9  ] [INFO ] -   Somekey2: SomeValue2
+[2015-05-29 16:12:46,762] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:44,756] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:44,756] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/who] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:45,722] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:46,744] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:47,737] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:48,890] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:49,747] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:50,753] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:51,768] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/world] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-05-29 16:14:54,241] [9  ] [INFO ] - Crawl complete for site [http://www.monash.edu/]: Crawled [10] pages in [00:02:12.5284761]
+[2015-05-29 16:16:53,774] [9  ] [INFO ] - About to crawl site [http://www.monash.edu/]
+[2015-05-29 16:16:53,789] [9  ] [INFO ] - Configuration Values:
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   Somekey1: SomeValue1
+[2015-05-29 16:16:53,789] [9  ] [INFO ] -   Somekey2: SomeValue2
+[2015-05-29 16:18:37,992] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-06-12 13:18:48,156] [9  ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-06-12 13:18:48,186] [9  ] [INFO ] - Configuration Values:
+[2015-06-12 13:18:48,187] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-12 13:18:48,187] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-12 13:18:48,187] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-06-12 13:18:48,187] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-12 13:18:48,188] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-12 13:18:48,188] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-12 13:18:48,188] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-12 13:18:48,188] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-12 13:18:48,189] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-12 13:18:48,189] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-12 13:18:48,190] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-12 13:18:48,190] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-06-12 13:18:48,190] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-12 13:18:48,190] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-12 13:18:48,191] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-12 13:18:48,191] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-12 13:18:48,191] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-12 13:18:48,191] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-12 13:18:48,191] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-06-12 13:18:48,192] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-12 13:18:48,193] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-06-12 13:18:48,194] [9  ] [INFO ] -   Somekey1: SomeValue1
+[2015-06-12 13:18:48,194] [9  ] [INFO ] -   Somekey2: SomeValue2
+[2015-06-12 13:20:29,383] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:04,280] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/webhp?hl=en] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:08,503] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/imghp?hl=en&tab=wi&ei=5E56VZ62M8P2mQW9moHwBA&ved=0CBMQqi4oAQ] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:12,910] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/homepage/windows8/] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:14,785] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/intl/en/options/] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:14,806] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/intl/en/policies/terms/?fg=1] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:14,809] [6  ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/support/websearch/bin/answer.py?answer=186645&form=bb&hl=en] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:15,457] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/preferences?hl=en] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:15,475] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/setprefs?suggon=2&prev=https://www.google.com/?gws_rd%3Dssl&sig=0_tiHrY0j71oeJMVpCVlsR4DPVIsc%3D] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:15,662] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/intl/en/policies/privacy/?fg=1] Parent:[http://www.google.com/] Retry:[0]
+[2015-06-12 13:24:17,940] [9  ] [INFO ] - Crawl complete for site [http://www.google.com/]: Crawled [10] pages in [00:05:29.7438051]
+[2015-07-03 10:39:41,882] [10 ] [INFO ] - About to crawl site [http://www.monash.edu/]
+[2015-07-03 10:39:42,802] [10 ] [INFO ] - Configuration Values:
+[2015-07-03 10:39:42,803] [10 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 10:39:42,804] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 10:39:42,804] [10 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 10:39:42,804] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 10:39:42,805] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 10:39:42,805] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 10:39:42,805] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 10:39:42,806] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 10:39:42,806] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 10:39:42,806] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 10:39:42,807] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 10:39:42,807] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 10:39:42,807] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 10:39:42,808] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 10:39:42,808] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 10:39:42,808] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 10:39:42,809] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 10:39:42,809] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 10:39:42,809] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 10:39:42,810] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 10:39:42,810] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 10:39:42,811] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 10:39:42,811] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 10:39:42,811] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 10:39:42,811] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 10:39:42,812] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 10:39:42,812] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 10:39:42,813] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 10:39:42,813] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 10:39:42,814] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 10:39:42,814] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 10:39:42,814] [10 ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 10:39:42,814] [10 ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:23:15,919] [11 ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-07-03 16:23:15,943] [11 ] [INFO ] - Configuration Values:
+[2015-07-03 16:23:15,944] [11 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:23:15,944] [11 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:23:15,945] [11 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 16:23:15,945] [11 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 16:23:15,945] [11 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:23:15,945] [11 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:23:15,946] [11 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:23:15,946] [11 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:23:15,946] [11 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:23:15,946] [11 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:23:15,946] [11 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:23:15,947] [11 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:23:15,947] [11 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:23:15,947] [11 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:23:15,947] [11 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:23:15,948] [11 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:23:15,948] [11 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:23:15,948] [11 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:23:15,949] [11 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:23:15,949] [11 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:23:15,949] [11 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:23:15,949] [11 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:23:15,949] [11 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:23:15,950] [11 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:23:15,950] [11 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:23:15,950] [11 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:23:15,950] [11 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:23:15,950] [11 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:23:15,951] [11 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:23:15,951] [11 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:23:15,951] [11 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:23:15,951] [11 ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:23:15,951] [11 ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:23:28,561] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:24:10,613] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/calendar?tab=wc] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:27:14,927] [9  ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-07-03 16:27:14,954] [9  ] [INFO ] - Configuration Values:
+[2015-07-03 16:27:14,955] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:27:14,955] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:27:14,955] [9  ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 16:27:14,956] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 16:27:14,956] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:27:14,956] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:27:14,957] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:27:14,957] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:27:14,957] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:27:14,957] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:27:14,958] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:27:14,958] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:27:14,958] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:27:14,958] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:27:14,959] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:27:14,959] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:27:14,959] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:27:14,959] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:27:14,960] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:27:14,960] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:27:14,960] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:27:14,960] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:27:14,961] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:27:14,962] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:27:14,962] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:27:14,962] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:27:14,962] [9  ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:27:14,962] [9  ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:27:15,870] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:37:57,882] [10 ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-07-03 16:37:57,906] [10 ] [INFO ] - Configuration Values:
+[2015-07-03 16:37:57,906] [10 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:37:57,907] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:37:57,908] [10 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 16:37:57,908] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 16:37:57,908] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:37:57,908] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:37:57,908] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:37:57,909] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:37:57,909] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:37:57,909] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:37:57,909] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:37:57,910] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:37:57,910] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:37:57,910] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:37:57,910] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:37:57,911] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:37:57,911] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:37:57,911] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:37:57,911] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:37:57,912] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:37:57,912] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:37:57,912] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:37:57,912] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:37:57,913] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:37:57,913] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:37:57,913] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:37:57,913] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:37:57,913] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:37:57,914] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:37:57,914] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:37:57,914] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:37:57,914] [10 ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:37:57,914] [10 ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:37:58,857] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:38:24,396] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/contacts/?hl=en&tab=wC] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:38:24,403] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/?gfe_rd=cr&ei=8yyWVcbSLsTu8wfWrbqwBw&gws_rd=ssl,cr&fg=1] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:41:16,399] [10 ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-07-03 16:41:16,420] [10 ] [INFO ] - Configuration Values:
+[2015-07-03 16:41:16,421] [10 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:41:16,421] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:41:16,421] [10 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 16:41:16,422] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 16:41:16,422] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:41:16,422] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:41:16,422] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:41:16,423] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:41:16,423] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:41:16,423] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:41:16,423] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:41:16,424] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:41:16,425] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:41:16,425] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:41:16,425] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:41:16,425] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:41:16,425] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:41:16,426] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:41:16,426] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:41:16,426] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:41:16,426] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:41:16,427] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:41:16,427] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:41:16,427] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:41:16,427] [10 ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:41:16,427] [10 ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:41:17,352] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:41:22,060] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:41:23,256] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/contacts/?hl=en&tab=wC] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:41:24,079] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/calendar?tab=wc] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:41:25,279] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/setprefs?suggon=2&prev=https://www.google.com/?gfe_rd%3Dcr%26ei%3Dui2WVe76ENLu8weL5bzYBQ%26gws_rd%3Dssl,cr&sig=0_0vx-5aoeCHKAcUVDl30Yi6SwEi0%3D] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:26,579] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/imghp?hl=en&tab=wi&ei=vS2WVd-TIYeN8QWsqqjgDw&ved=0CBUQqi4oAQ] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:27,637] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/webhp?hl=en] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:28,561] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/intl/en/options/] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:29,657] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/support/websearch/bin/answer.py?answer=186645&form=bb&hl=en] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:30,396] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/homepage/windows8/] Parent:[https://www.google.com/?gfe_rd=cr&ei=ui2WVe76ENLu8weL5bzYBQ&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:41:32,304] [10 ] [INFO ] - Crawl complete for site [http://www.google.com/]: Crawled [10] pages in [00:00:15.8746883]
+[2015-07-03 16:45:47,918] [10 ] [INFO ] - About to crawl site [http://www.google.com/]
+[2015-07-03 16:45:47,945] [10 ] [INFO ] - Configuration Values:
+[2015-07-03 16:45:47,946] [10 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:45:47,946] [10 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:45:47,946] [10 ] [INFO ] -   MaxPagesToCrawl: 10
+[2015-07-03 16:45:47,946] [10 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-07-03 16:45:47,946] [10 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:45:47,947] [10 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:45:47,948] [10 ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:45:47,948] [10 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:45:47,948] [10 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:45:47,948] [10 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:45:47,949] [10 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:45:47,949] [10 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:45:47,949] [10 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:45:47,949] [10 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:45:47,949] [10 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:45:47,950] [10 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:45:47,950] [10 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:45:47,950] [10 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:45:47,951] [10 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:45:47,955] [10 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:45:47,955] [10 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:45:47,955] [10 ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:45:47,955] [10 ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:45:48,816] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:45:50,919] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:45:51,785] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/contacts/?hl=en&tab=wC] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:45:53,094] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/calendar?tab=wc] Parent:[http://www.google.com/] Retry:[0]
+[2015-07-03 16:45:53,712] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/homepage/windows8/] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:45:54,924] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/webhp?hl=en] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:45:55,865] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/imghp?hl=en&tab=wi&ei=zC6WVciCF4GF0QS9iZjABA&ved=0CBUQqi4oAQ] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:45:56,732] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.google.com/intl/en/options/] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:45:57,952] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/support/websearch/bin/answer.py?answer=186645&form=bb&hl=en] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:45:58,940] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[https://www.google.com/setprefs?suggon=2&prev=https://www.google.com/?gfe_rd%3Dcr%26ei%3DyS6WVcjEL8ru8wfZtryQDA%26gws_rd%3Dssl,cr&sig=0_F_8Upmm8COMY5ORXoFWNmIRB-C4%3D] Parent:[https://www.google.com/?gfe_rd=cr&ei=yS6WVcjEL8ru8wfZtryQDA&gws_rd=ssl,cr&fg=1] Retry:[0]
+[2015-07-03 16:46:00,490] [10 ] [INFO ] - Crawl complete for site [http://www.google.com/]: Crawled [10] pages in [00:00:12.5332971]
+[2015-07-03 16:49:12,272] [9  ] [INFO ] - About to crawl site [http://www.monash.edu/]
+[2015-07-03 16:49:12,288] [9  ] [INFO ] - Configuration Values:
+[2015-07-03 16:49:12,288] [9  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:49:12,289] [9  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:49:12,289] [9  ] [INFO ] -   MaxPagesToCrawl: 100
+[2015-07-03 16:49:12,289] [9  ] [INFO ] -   MaxPagesToCrawlPerDomain: 10
+[2015-07-03 16:49:12,289] [9  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:49:12,290] [9  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:49:12,290] [9  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:49:12,290] [9  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:49:12,290] [9  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:49:12,291] [9  ] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-07-03 16:49:12,291] [9  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-07-03 16:49:12,291] [9  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:49:12,291] [9  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:49:12,292] [9  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:49:12,292] [9  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:49:12,292] [9  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:49:12,293] [9  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:49:12,293] [9  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:49:12,293] [9  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:49:12,293] [9  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:49:12,293] [9  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:49:12,294] [9  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:49:12,295] [9  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:49:12,295] [9  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:49:12,295] [9  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:49:12,295] [9  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:49:12,295] [9  ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:49:12,296] [9  ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:49:12,699] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:14,888] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:16,264] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:16,935] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:17,935] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:18,937] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:20,069] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:20,940] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:21,940] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/who] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:22,938] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/world] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:23,943] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/structure] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:24,987] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/jobs-at-monash] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:25,928] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/campuses] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:26,943] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/leadership] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:27,950] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/indigenous] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:28,945] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/schools] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:29,948] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/research-degrees] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:30,946] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/postgraduate] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:31,951] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/undergraduate] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:32,947] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/parents] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:33,949] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/agents] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:34,949] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/international] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:35,953] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/why-monash] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:36,949] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/courses] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:37,950] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/fees-scholarships] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:38,950] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research/impact] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:39,951] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research/people] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:40,953] [17 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research/centres] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:41,960] [28 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research/capabilities] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:42,954] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/research/infrastructure] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:44,147] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/magazine] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:45,989] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry/working] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:47,993] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry/experts] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:48,980] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry/working/help] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:49,963] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/a-z] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:50,963] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/find-service] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:51,326] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry/impact] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:51,965] [28 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/departments] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:52,970] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/maps] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:53,338] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/industry/capabilities-technology] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:53,966] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/transport-parking] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:54,964] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/contact] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:56,203] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/latest] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:57,095] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/releases] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:58,182] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/opinions] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:49:59,220] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/events] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:00,049] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/expertline] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:01,169] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/news/contact] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:02,249] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni/career2] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:03,207] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni/benefits2] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:04,164] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni/find] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:05,144] [29 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni/get-involved2] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:06,139] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/alumni/contact] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:07,978] [30 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/study/why-monash/monash-stories/art,-design-and-architecture?utm_source=home-page-carousel&utm_medium=Web-banner&utm_campaign=it's-more-than-you-think] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:08,790] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/media/links/stay-connected] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:10,297] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/?a=52319] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:11,279] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/media/links/monash-online] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:13,098] [33 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/?a=52757] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:14,086] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/?a=52798] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:14,575] [34 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/media/links/coursefinder] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:15,103] [37 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/students/key-dates/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:16,063] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/payments/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:17,071] [36 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/library/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:18,019] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/jobs/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:18,336] [28 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/indigenous/students] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:18,988] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/faculties] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:19,997] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/a-z] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:22,045] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/students/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:22,991] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/sitemap] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:24,078] [37 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/people/maps/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:25,163] [3  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/glance/social-inclusion/indigenous/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:26,226] [36 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/giving/] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:26,581] [33 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/?a=61317] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:28,994] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/privacy] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:29,999] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/who/strategic-plan?utm_source=about-us-and-our-history-page-carousel&utm_medium=Web-banner&utm_campaign=strategic-plan-launched] Parent:[http://www.monash.edu/about] Retry:[0]
+[2015-07-03 16:50:31,007] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/about/campuses/australian] Parent:[http://www.monash.edu/about] Retry:[0]
+[2015-07-03 16:50:32,017] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/?a=52307] Parent:[http://www.monash.edu/about] Retry:[0]
+[2015-07-03 16:50:33,161] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/accessibility] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:34,138] [28 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.monash.edu/disclaimer-copyright] Parent:[http://www.monash.edu/] Retry:[0]
+[2015-07-03 16:50:36,629] [9  ] [INFO ] - Crawl complete for site [http://www.monash.edu/]: Crawled [79] pages in [00:01:24.3310846]
+[2015-07-03 16:52:57,207] [8  ] [INFO ] - About to crawl site [http://www.theage.com.au/]
+[2015-07-03 16:52:57,223] [8  ] [INFO ] - Configuration Values:
+[2015-07-03 16:52:57,224] [8  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:52:57,224] [8  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:52:57,225] [8  ] [INFO ] -   MaxPagesToCrawl: 100
+[2015-07-03 16:52:57,225] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 10
+[2015-07-03 16:52:57,225] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:52:57,225] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:52:57,225] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:52:57,226] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:52:57,226] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:52:57,226] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: True
+[2015-07-03 16:52:57,226] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: True
+[2015-07-03 16:52:57,227] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:52:57,227] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:52:57,227] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:52:57,227] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:52:57,227] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:52:57,228] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:52:57,228] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:52:57,229] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:52:57,230] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:52:57,231] [8  ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:52:57,231] [8  ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:52:57,738] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:52:59,848] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theageshop.com.au/?utm_source=fd&utm_medium=homepage&utm_campaign=shop] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:53:00,062] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/siteguide/accessibility] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:53:03,202] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/subscribe?brand=stan_age&channel_key=QeFV9eVnngJX9eFB2HyKgQ&callback_uri=http://www.theage.com.au&plain_token=true&iid=banner:nnn-15omn0233-acq-consumersubs:nnn-19/02/2015-stan15-dom-stan_nava-nnn-age-u&campaign_code=stan15&promote_channel=banner] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:01,639] [8  ] [INFO ] - About to crawl site [http://www.theage.com.au/]
+[2015-07-03 16:55:01,656] [8  ] [INFO ] - Configuration Values:
+[2015-07-03 16:55:01,656] [8  ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-07-03 16:55:01,657] [8  ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-07-03 16:55:01,657] [8  ] [INFO ] -   MaxPagesToCrawl: 100
+[2015-07-03 16:55:01,657] [8  ] [INFO ] -   MaxPagesToCrawlPerDomain: 10
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   IsExternalPageCrawlingEnabled: True
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: True
+[2015-07-03 16:55:01,658] [8  ] [INFO ] -   DownloadableContentTypes: text/html, text/plain
+[2015-07-03 16:55:01,659] [8  ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-07-03 16:55:01,659] [8  ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-07-03 16:55:01,659] [8  ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-07-03 16:55:01,659] [8  ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-07-03 16:55:01,660] [8  ] [INFO ] -   MaxCrawlDepth: 100
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   MaxRetryCount: 0
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-07-03 16:55:01,661] [8  ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-07-03 16:55:01,662] [8  ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-07-03 16:55:01,662] [8  ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-07-03 16:55:01,662] [8  ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-07-03 16:55:01,662] [8  ] [INFO ] -   Somekey1: SomeValue1
+[2015-07-03 16:55:01,662] [8  ] [INFO ] -   Somekey2: SomeValue2
+[2015-07-03 16:55:02,138] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:04,296] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theageshop.com.au/?utm_source=fd&utm_medium=homepage&utm_campaign=shop] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:04,297] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/siteguide/accessibility] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:07,719] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/national/interactive-hub] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:08,460] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/cartoons] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:09,463] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/subscribe?brand=stan_age&channel_key=QeFV9eVnngJX9eFB2HyKgQ&callback_uri=http://www.theage.com.au&plain_token=true&iid=banner:nnn-15omn0233-acq-consumersubs:nnn-19/02/2015-stan15-dom-stan_nava-nnn-age-u&campaign_code=stan15&promote_channel=banner] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:10,573] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/national/photography] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:11,660] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://celebrations.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:12,503] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/victoria/quiz] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:13,062] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://tributes.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:13,390] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/good-weekend] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:14,498] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/victoria] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:16,444] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/world] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:16,629] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/national/clique] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:17,529] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/environment] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:17,926] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/national] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:20,119] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/education] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:20,401] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/data-point] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:21,151] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/national/health] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:22,009] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:22,474] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/afl] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:23,597] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/ultimatefooty] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:25,600] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/soccer] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:26,749] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/cricket] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:27,518] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/tennis] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:28,383] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/horseracing] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:29,398] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/golf] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:29,739] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/motorsport] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:30,593] [29 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/cycling] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:33,282] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/sport/basketball] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:34,640] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/business] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:35,468] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/rugby-union] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:35,673] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/rugby-league] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:35,702] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/business/markets] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:36,723] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/business/world] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:38,604] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/business/carbon-economy] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:41,743] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/money] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:42,523] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:43,091] [27 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/small-business] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:43,376] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/executive-style] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:44,781] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/political-news] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:47,585] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/political-opinion] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:48,323] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/the-sugar-hit] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:48,393] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/breaking-politics] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:48,586] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/comment] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:48,859] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/federal-politics/the-pulse-live] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:49,608] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/comment/letters] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:50,950] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/business/opinion] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:52,913] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/obituaries] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:54,382] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/technology] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:54,736] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/it-pro] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:56,220] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/comment/the-age-editorial] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:57,733] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:58,620] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/movies] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:58,831] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/digital-life] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:55:59,636] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/music] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:01,355] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/tv-and-radio] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:01,778] [13 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/arts-and-culture] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:02,609] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/box-seat] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:03,843] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/books] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:04,967] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/entertainment/tv-guide] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:07,872] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/beauty] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:08,609] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/diet-and-fitness] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:09,397] [24 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:09,649] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:09,819] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/fashion] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:10,524] [20 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.theage.com.au/technology/sci-tech] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:11,501] [26 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://www.theage.com.au/digital-life/computers/gadgets-on-the-go] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:11,641] [34 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/travel-experiences] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:11,654] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/travel-planning] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:11,719] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/celebrity] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:12,439] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/homestyle] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:12,573] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.drive.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:12,615] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/reviews] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:13,541] [20 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.drive.com.au/car-reviews/car-of-the-year] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:13,796] [19 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://events.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:13,908] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/horoscopes] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,235] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://media.drive.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,306] [28 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/travel-deals] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,459] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://news.domain.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,607] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.drive.com.au/car-news] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,640] [12 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://www.theage.com.au/destinations] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:14,678] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/?mode=buy] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:15,557] [16 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/?mode=rent] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:15,609] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.drive.com.au/car-reviews] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:16,353] [33 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/cruises] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:16,651] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/Ore/Public/NewProperties.aspx?mode=newdev] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:16,830] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://media.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:16,931] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.traveller.com.au/travel-experiences/adventure-holidays] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,065] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://weather.theage.com.au/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,273] [14 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/weddings] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,447] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/victoria/melbourne-traffic] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,504] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.drive.com.au/research-and-advice] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,547] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/?mode=share] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:17,986] [26 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://weather.theage.com.au/snow.jsp] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:18,612] [10 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/?mode=sold] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:19,447] [15 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/apm/Research/AuctionResults/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:20,614] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/real-estate-agents] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:21,363] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.domain.com.au/blog/] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:21,660] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://www.theage.com.au/lifestyle/life] Parent:[http://www.theage.com.au/] Retry:[0]
+[2015-07-03 16:56:22,326] [8  ] [INFO ] - Crawl complete for site [http://www.theage.com.au/]: Crawled [100] pages in [00:01:20.6616679]

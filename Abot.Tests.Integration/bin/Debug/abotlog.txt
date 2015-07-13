@@ -1,0 +1,616 @@
+[2015-06-19 11:03:29,715] [11 ] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:29,723] [11 ] [INFO ] - Configuration Values:
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   MaxPagesToCrawl: 1000
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   IsExternalPageCrawlingEnabled: True
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:29,723] [11 ] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MinRetryDelayInMilliseconds: 5000
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   key1: value1
+[2015-06-19 11:03:29,724] [11 ] [INFO ] -   key2: value2
+[2015-06-19 11:03:29,789] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:32,232] [11 ] [FATAL] - Crawl cancellation requested for site [http://localhost.fiddler:1111/]!
+[2015-06-19 11:03:32,232] [11 ] [INFO ] - Hard crawl stop requested for site [http://localhost.fiddler:1111/]!
+[2015-06-19 11:03:32,234] [11 ] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [1] pages in [00:00:02.5107756]
+[2015-06-19 11:03:32,282] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:32,282] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:32,282] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 1000
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 2
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:32,283] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:03:32,284] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:34,294] [11 ] [INFO ] - Crawl timeout of [2] seconds has been reached for [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:34,784] [TestRunnerThread] [INFO ] - Hard crawl stop requested for site [http://localhost.fiddler:1111/]!
+[2015-06-19 11:03:34,784] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [1] pages in [00:00:02.5003839]
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 3
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:34,799] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:34,800] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:34,801] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-06-19 11:03:34,816] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:37,305] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:38,297] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:39,802] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [3] pages in [00:00:05.0005844]
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 25
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-19 11:03:39,833] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:39,834] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:39,834] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:39,834] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:39,834] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:39,834] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:03:39,834] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:42,337] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:42,344] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:42,345] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:42,345] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:44,836] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,837] [21 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,837] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,837] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,842] [21 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,842] [18 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,842] [12 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,842] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,843] [20 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,843] [11 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,857] [25 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,857] [23 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,857] [12 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,857] [11 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,859] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:03:44,860] [22 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:03:44,860] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:03:44,860] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:03:44,861] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:03:44,863] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:03:47,361] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [25] pages in [00:00:07.5261343]
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 5
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:47,402] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:03:47,402] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:49,903] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:49,907] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:49,914] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:49,915] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:52,410] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [5] pages in [00:00:05.0081967]
+[2015-06-19 11:03:52,420] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:52,420] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:52,420] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:52,420] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 5
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: False
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:52,421] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 0
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:52,422] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 1000
+[2015-06-19 11:03:52,424] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:54,924] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:56,498] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:57,511] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:58,511] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:03:59,927] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [5] pages in [00:00:07.5048184]
+[2015-06-19 11:03:59,939] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:03:59,939] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 1000
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: True
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MaxRetryCount: 3
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 2000
+[2015-06-19 11:03:59,940] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   key1: value1
+[2015-06-19 11:03:59,941] [TestRunnerThread] [INFO ] -   key2: value2
+[2015-06-19 11:03:59,942] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,447] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,447] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,447] [4  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,448] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,448] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://zoogle.com/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:02,472] [11 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://yahoo.com/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:04,944] [18 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,945] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,945] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,945] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,946] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,966] [19 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,966] [25 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,966] [4  ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,966] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,966] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,967] [11 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,968] [9  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,968] [12 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,968] [19 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,969] [18 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[0]
+[2015-06-19 11:04:04,970] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,970] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,971] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,971] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,975] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,975] [23 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,976] [11 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,976] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,977] [12 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,977] [9  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,978] [22 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,978] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,979] [4  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,979] [25 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,986] [9  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[0]
+[2015-06-19 11:04:04,986] [22 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page17] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,986] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page16] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,986] [23 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page18] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,988] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,988] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page19] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,989] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page20] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,989] [9  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,989] [4  ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,989] [11 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,990] [23 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,990] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,990] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,990] [12 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,991] [11 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,991] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,991] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[0]
+[2015-06-19 11:04:04,991] [9  ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,992] [25 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,997] [12 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,997] [11 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/HttpResponse/Status200/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,998] [22 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,999] [4  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,999] [12 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,999] [19 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,999] [25 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:04,999] [9  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:05,000] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:05,000] [11 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:05,000] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:05,001] [4  ] [INFO ] - Waiting [1943.4892] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:05,001] [22 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[0]
+[2015-06-19 11:04:05,001] [11 ] [INFO ] - Waiting [1943.4898] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:05,001] [19 ] [INFO ] - Waiting [1942.4888] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:05,001] [9  ] [INFO ] - Waiting [1942.4888] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,945] [22 ] [INFO ] - Waiting [0.550599999999804] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,946] [23 ] [INFO ] - Waiting [19.0903999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,946] [12 ] [INFO ] - Waiting [19.0903999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,946] [9  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,947] [11 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,947] [4  ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,947] [4  ] [INFO ] - Waiting [18.0893999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,947] [11 ] [INFO ] - Waiting [19.0903999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,948] [19 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,967] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,968] [4  ] [INFO ] - Waiting [5.0451999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,968] [12 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,968] [12 ] [INFO ] - Waiting [2.0161999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,968] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,969] [22 ] [INFO ] - Waiting [3.00839999999994] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,970] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,973] [11 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,974] [9  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[1]
+[2015-06-19 11:04:06,974] [9  ] [INFO ] - Waiting [0.0190000000000055] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,974] [23 ] [INFO ] - Waiting [1.00819999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,975] [4  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,976] [4  ] [INFO ] - Waiting [0.0137999999999465] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,976] [12 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,977] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,978] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,978] [19 ] [INFO ] - Waiting [0.0144999999999982] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,979] [11 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,979] [9  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,979] [22 ] [INFO ] - Waiting [8.03579999999988] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,979] [9  ] [INFO ] - Waiting [7.01699999999983] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,980] [12 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,980] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,980] [12 ] [INFO ] - Waiting [6.01659999999993] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,980] [25 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://yahoo.com/] Parent:[http://localhost.fiddler:1111/] Retry:[1]
+[2015-06-19 11:04:06,987] [25 ] [INFO ] - Waiting [0.985899999999901] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,988] [19 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,988] [19 ] [INFO ] - Waiting [0.0117999999999938] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,988] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[1]
+[2015-06-19 11:04:06,988] [18 ] [INFO ] - Waiting [1.01279999999997] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,988] [7  ] [INFO ] - Waiting [0.0117999999999938] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,989] [4  ] [INFO ] - Waiting [0.0123999999998432] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,989] [23 ] [INFO ] - Waiting [1.01279999999997] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,989] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,990] [19 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,990] [9  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,990] [12 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,994] [18 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,989] [26 ] [INFO ] - Waiting [0.0123999999998432] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,995] [19 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:06,995] [9  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:06,995] [19 ] [INFO ] - Waiting [2.0188999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,995] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,995] [22 ] [INFO ] - Waiting [2.0188999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,992] [25 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,997] [29 ] [INFO ] - Waiting [0.0174999999999272] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,997] [30 ] [INFO ] - Waiting [1.0329999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,999] [33 ] [INFO ] - Waiting [0.0135999999999967] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:06,997] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:06,991] [7  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:07,007] [7  ] [INFO ] - Waiting [1937.9489] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:06,997] [26 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[1]
+[2015-06-19 11:04:07,013] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,013] [30 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:06,994] [6  ] [INFO ] - Waiting [4.0338999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:07,017] [26 ] [INFO ] - Waiting [1926.8778] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,000] [19 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,016] [23 ] [INFO ] - Waiting [1928.9432] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,018] [9  ] [INFO ] - Waiting [1947.9714] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,000] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,014] [35 ] [INFO ] - Waiting [1930.944] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,019] [22 ] [INFO ] - Waiting [1946.971] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,013] [33 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,019] [36 ] [INFO ] - Waiting [1928.9154] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,002] [29 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:06,998] [4  ] [INFO ] - Waiting [0.0326000000000022] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] LastRequest:[06/19/2015 11:04:04] SoonestNextRequest:[06/19/2015 11:04:06]
+[2015-06-19 11:04:07,020] [29 ] [INFO ] - Waiting [1945.9702] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,020] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,020] [30 ] [INFO ] - Waiting [1946.9709] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:07,022] [6  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[1]
+[2015-06-19 11:04:07,022] [25 ] [INFO ] - Waiting [1945.944] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,946] [26 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,947] [19 ] [INFO ] - Waiting [27.4123999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,950] [23 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,955] [23 ] [INFO ] - Waiting [16.4055999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,956] [36 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,956] [36 ] [INFO ] - Waiting [20.4284] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,957] [7  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,957] [35 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,957] [7  ] [INFO ] - Waiting [16.4321] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,957] [18 ] [INFO ] - Waiting [16.4321] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,968] [29 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,968] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,969] [29 ] [INFO ] - Waiting [5.36069999999995] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,969] [34 ] [INFO ] - Waiting [8.38389999999981] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,969] [9  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,970] [9  ] [INFO ] - Waiting [6.35479999999984] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,970] [30 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,971] [25 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[2]
+[2015-06-19 11:04:08,971] [25 ] [INFO ] - Waiting [8.35619999999994] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,973] [23 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,973] [4  ] [INFO ] - Waiting [5.35369999999989] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,975] [7  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,975] [18 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,976] [7  ] [INFO ] - Waiting [12.3594999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,976] [6  ] [INFO ] - Waiting [12.3594999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,977] [29 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,977] [19 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,977] [12 ] [INFO ] - Waiting [10.385] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,977] [29 ] [INFO ] - Waiting [11.3590999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,979] [36 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,979] [9  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,979] [23 ] [INFO ] - Waiting [11.3594999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,979] [33 ] [INFO ] - Waiting [15.3610999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,980] [34 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,980] [34 ] [INFO ] - Waiting [14.3603999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,981] [4  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,981] [22 ] [INFO ] - Waiting [8.34819999999991] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,983] [25 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[2]
+[2015-06-19 11:04:08,983] [31 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://yahoo.com/] Parent:[http://localhost.fiddler:1111/] Retry:[2]
+[2015-06-19 11:04:08,983] [36 ] [INFO ] - Waiting [7.34909999999991] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,983] [31 ] [INFO ] - Waiting [13.3511999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] LastRequest:[06/19/2015 11:04:06] SoonestNextRequest:[06/19/2015 11:04:08]
+[2015-06-19 11:04:08,996] [29 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:08,999] [31 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:08,996] [6  ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:08,996] [7  ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:09,005] [7  ] [INFO ] - Waiting [2.35189999999989] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] LastRequest:[06/19/2015 11:04:07] SoonestNextRequest:[06/19/2015 11:04:09]
+[2015-06-19 11:04:09,005] [32 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:09,002] [29 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:08,997] [34 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,004] [33 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,010] [26 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,000] [12 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:09,020] [33 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,015] [34 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:08,996] [22 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:08,996] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:09,015] [29 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,032] [23 ] [INFO ] - Waiting [1922.9111] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,032] [25 ] [INFO ] - Waiting [1917.9079] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,023] [33 ] [INFO ] - Waiting [1921.8757] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,031] [27 ] [INFO ] - Waiting [1917.8877] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,023] [35 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,033] [35 ] [INFO ] - Waiting [1933.9593] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,022] [26 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,032] [29 ] [INFO ] - Waiting [1922.9111] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,033] [26 ] [INFO ] - Waiting [1933.9593] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,004] [18 ] [INFO ] - Waiting [3.35289999999986] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] LastRequest:[06/19/2015 11:04:07] SoonestNextRequest:[06/19/2015 11:04:09]
+[2015-06-19 11:04:09,002] [36 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[2]
+[2015-06-19 11:04:09,033] [22 ] [INFO ] - Waiting [1934.9616] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,015] [7  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,033] [12 ] [INFO ] - Waiting [1935.9568] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:09,037] [18 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[2]
+[2015-06-19 11:04:09,037] [34 ] [INFO ] - Waiting [1932.4796] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,953] [27 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,953] [25 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,953] [40 ] [INFO ] - Waiting [18.4024999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,953] [42 ] [INFO ] - Waiting [20.4029999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,956] [33 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,956] [33 ] [INFO ] - Waiting [17.4005999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,957] [23 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,957] [36 ] [INFO ] - Waiting [17.3956999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,958] [29 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,958] [39 ] [INFO ] - Waiting [16.3952999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,969] [26 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,970] [7  ] [INFO ] - Waiting [6.3922] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,970] [35 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,970] [35 ] [INFO ] - Waiting [6.3922] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,971] [22 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,971] [22 ] [INFO ] - Waiting [6.39249999999993] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,971] [12 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,972] [41 ] [INFO ] - Waiting [6.36559999999986] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,972] [34 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=4] Retry:[3]
+[2015-06-19 11:04:10,972] [23 ] [INFO ] - Waiting [8.37549999999987] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,973] [40 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,975] [33 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,976] [42 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,976] [33 ] [INFO ] - Waiting [16.4169999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,976] [29 ] [INFO ] - Waiting [20.4028999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,976] [36 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,977] [39 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,977] [36 ] [INFO ] - Waiting [15.4159999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,977] [39 ] [INFO ] - Waiting [15.4159999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,979] [7  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page1] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,979] [7  ] [INFO ] - Waiting [24.404] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:10,980] [22 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,980] [35 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,980] [27 ] [INFO ] - Waiting [20.4007999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:10,980] [22 ] [INFO ] - Waiting [14.3987] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,980] [41 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page2] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,981] [12 ] [INFO ] - Waiting [21.4015999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:10,982] [23 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=3] Retry:[3]
+[2015-06-19 11:04:10,983] [23 ] [INFO ] - Waiting [24.3963999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:10,984] [32 ] [INFO ] - Page crawl complete, Status:[NA] Url:[http://yahoo.com/] Parent:[http://localhost.fiddler:1111/] Retry:[3]
+[2015-06-19 11:04:10,985] [34 ] [INFO ] - Waiting [2.38659999999982] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] LastRequest:[06/19/2015 11:04:08] SoonestNextRequest:[06/19/2015 11:04:10]
+[2015-06-19 11:04:10,989] [34 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page4] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:10,989] [37 ] [INFO ] - Waiting [29.3797999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:10,999] [33 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:10,999] [36 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:10,999] [39 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:10,999] [33 ] [INFO ] - Waiting [15.2480999999998] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,000] [22 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page5] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,000] [32 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page13] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,000] [41 ] [INFO ] - Waiting [10.2439999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,000] [29 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page16] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,000] [32 ] [INFO ] - Waiting [23.2538] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,000] [29 ] [INFO ] - Waiting [21.2520999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,000] [39 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page14] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,001] [39 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,001] [6  ] [INFO ] - Waiting [9.24329999999986] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,002] [27 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,002] [36 ] [INFO ] - Waiting [35.7349999999999] milliseconds before retrying Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] LastRequest:[06/19/2015 11:04:09] SoonestNextRequest:[06/19/2015 11:04:11]
+[2015-06-19 11:04:11,005] [12 ] [INFO ] - Page crawl complete, Status:[403] Url:[http://localhost.fiddler:1111/HttpResponse/Status403/Page3] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,005] [7  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page15] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=2] Retry:[3]
+[2015-06-19 11:04:11,009] [23 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page7] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,011] [41 ] [INFO ] - Page crawl complete, Status:[404] Url:[http://localhost.fiddler:1111/HttpResponse/Status404/Page6] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,012] [6  ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,015] [33 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page11] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,020] [37 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page8] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,022] [29 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page10] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,024] [32 ] [INFO ] - Page crawl complete, Status:[500] Url:[http://localhost.fiddler:1111/HttpResponse/Status500/Page9] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:11,046] [36 ] [INFO ] - Page crawl complete, Status:[503] Url:[http://localhost.fiddler:1111/HttpResponse/Status503/Page12] Parent:[http://localhost.fiddler:1111/PageGenerator/Generate?Status200Count=5&Status403Count=1&Status404Count=2&Status500Count=3&Status503Count=4&Page=1] Retry:[3]
+[2015-06-19 11:04:13,505] [TestRunnerThread] [INFO ] - Crawl complete for site [http://localhost.fiddler:1111/]: Crawled [67] pages in [00:00:13.5640446]
+[2015-06-19 11:04:13,523] [TestRunnerThread] [INFO ] - No discrepancies between expected and actual results
+[2015-06-19 11:04:13,533] [TestRunnerThread] [INFO ] - About to crawl site [http://localhost.fiddler:1111/]
+[2015-06-19 11:04:13,533] [TestRunnerThread] [INFO ] - Configuration Values:
+[2015-06-19 11:04:13,533] [TestRunnerThread] [INFO ] -   Abot Version: 1.5.0.0
+[2015-06-19 11:04:13,533] [TestRunnerThread] [INFO ] -   MaxConcurrentThreads: 10
+[2015-06-19 11:04:13,533] [TestRunnerThread] [INFO ] -   MaxPagesToCrawl: 1000
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxPagesToCrawlPerDomain: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxPageSizeInBytes: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxRobotsDotTextCrawlDelayInSeconds: 5
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   UserAgentString: Mozilla/5.0 (Windows NT 6.3; Trident/7.0; rv:11.0) like Gecko
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   CrawlTimeoutSeconds: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsUriRecrawlingEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsExternalPageCrawlingEnabled: True
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsExternalPageLinksCrawlingEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   DownloadableContentTypes: text/html
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   HttpServicePointConnectionLimit: 200
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   HttpRequestTimeoutInSeconds: 15
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   HttpRequestMaxAutoRedirects: 7
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsHttpRequestAutoRedirectsEnabled: True
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsHttpRequestAutomaticDecompressionEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsSendingCookiesEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MinAvailableMemoryRequiredInMb: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxMemoryUsageInMb: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxMemoryUsageCacheTimeInSeconds: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxCrawlDepth: 100
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsForcedLinkParsingEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MaxRetryCount: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MinRetryDelayInMilliseconds: 5000
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsRespectRobotsDotTextEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsRespectMetaRobotsNoFollowEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsRespectAnchorRelNoFollowEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   IsIgnoreRobotsDotTextIfRootDisallowedEnabled: False
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   RobotsDotTextUserAgentString: abot
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   MinCrawlDelayPerDomainMilliSeconds: 0
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   key1: value1
+[2015-06-19 11:04:13,534] [TestRunnerThread] [INFO ] -   key2: value2
+[2015-06-19 11:04:13,535] [19 ] [INFO ] - Page crawl complete, Status:[200] Url:[http://localhost.fiddler:1111/] Parent:[http://localhost.fiddler:1111/] Retry:[0]
+[2015-06-19 11:04:14,486] [TestRunnerThread] [FATAL] - An error occurred while crawling site [http://localhost.fiddler:1111/]

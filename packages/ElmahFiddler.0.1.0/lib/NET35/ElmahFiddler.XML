@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ElmahFiddler</name>
+    </assembly>
+    <members>
+        <member name="T:ElmahFiddler.ElmahMailSAZConfig">
+            <summary>
+            Optional SAZ module configuration
+            </summary>
+        </member>
+        <member name="P:ElmahFiddler.ElmahMailSAZConfig.Password">
+            <summary>
+            Password for SAZ file
+            </summary>
+        </member>
+        <member name="P:ElmahFiddler.ElmahMailSAZConfig.ExcludedUrls">
+            <summary>
+            List of URLs to exclude from SAZ
+            </summary>
+        </member>
+        <member name="P:ElmahFiddler.ElmahMailSAZConfig.KeepLastNRequests">
+            <summary>
+            Keep only the last N requests before the error
+            Only used by <see cref="T:ElmahFiddler.ElmahMailSAZTraceModule"/>
+            </summary>
+        </member>
+        <member name="P:ElmahFiddler.ElmahMailSAZConfig.RenameHost">
+            <summary>
+            Rename host in SAZ requests
+            </summary>
+        </member>
+        <!-- Badly formed XML comment ignored for member "M:ElmahFiddler.SAZ.WriteSessionArchive(System.String,Fiddler.Session[],System.String)" -->
+        <member name="M:ElmahFiddler.StreamExtensions.ReadAll(System.IO.Stream)">
+            <summary>
+            Fully reads a Stream
+            </summary>
+            <param name="stream"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>
