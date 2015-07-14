@@ -2,6 +2,8 @@
 using Abot.Crawler;
 using Abot.Poco;
 using Abot.Database;
+using HtmlAgilityPack;
+
 using System;
 using System.Data.Linq;
 using System.Data.Linq.Mapping;
@@ -28,7 +30,8 @@ namespace Abot.Demo
             string bd = AppDomain.CurrentDomain.BaseDirectory;
 
             //Uri uriToCrawl = GetSiteToCrawl(args);
-            string rootUri = "http://www.monash.edu";
+            //string rootUri = "http://www.monash.edu";
+            string rootUri = "http://www.domain.com.au/sold/31-tern-court-melton-vic-3337-2011911215?sp=2";
             Uri uriToCrawl = new Uri(rootUri);
             IWebCrawler crawler;
 
@@ -78,8 +81,8 @@ namespace Abot.Demo
 
             //Add you own values without modifying Abot's source code.
             //These are accessible in CrawlContext.CrawlConfuration.ConfigurationException object throughout the crawl
-            config.ConfigurationExtensions.Add("Somekey1", "SomeValue1");
-            config.ConfigurationExtensions.Add("Somekey2", "SomeValue2");
+            //config.ConfigurationExtensions.Add("Somekey1", "SomeValue1");
+            //config.ConfigurationExtensions.Add("Somekey2", "SomeValue2");
 
             //Initialize the crawler with custom configuration created above.
             //This override the app.config file values
@@ -98,6 +101,16 @@ namespace Abot.Demo
             {
                 if (pageToCrawl.Uri.AbsoluteUri.Contains("ghost"))
                     return new CrawlDecision { Allow = false, Reason = "Scared of ghosts" };
+
+                return new CrawlDecision { Allow = true };
+            });
+
+            //Register a lambda expression that will tell Abot to not crawl links on any page that is not internal to the root uri.
+            //NOTE: This lambda is run after the regular ICrawlDecsionMaker.ShouldCrawlPageLinks method is run
+            crawler.ShouldCrawlPageLinks((crawledPage, crawlContext) =>
+            {
+                if (!crawledPage.IsInternal)
+                    return new CrawlDecision { Allow = false, Reason = "We dont crawl links of external pages" };
 
                 return new CrawlDecision { Allow = true };
             });
@@ -187,8 +200,10 @@ namespace Abot.Demo
 
         static void crawler_ProcessPageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
         {
+            // save to WebPage table
+
             //Process data
-            var dbContext = new WebPageDataContext(connectionString);
+            var webpageContext = new WebPageDataContext(connectionString);
             //IEnumerable<WebPage> wp = dbContext.WebPages.OrderBy(c => c.pageUrl);
 
             WebPage page = new WebPage
@@ -202,11 +217,11 @@ namespace Abot.Demo
                 pageHtml = e.CrawledPage.Content.Text             
             };
 
-            dbContext.WebPages.InsertOnSubmit(page);
+            webpageContext.WebPages.InsertOnSubmit(page);
 
             try
             {
-                dbContext.SubmitChanges();
+                webpageContext.SubmitChanges();
             }
             catch (Exception ex)
             {
@@ -214,7 +229,67 @@ namespace Abot.Demo
                 // Make some adjustments. 
                 // ... 
                 // Try again.
-                dbContext.SubmitChanges();
+                webpageContext.SubmitChanges();
+            }
+
+            // save to Property table
+            var propertyContext = new PropertyDataContext(connectionString);
+
+            HtmlNode addressNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//span[@class='js-address']");
+            string addr = "";
+            if (addressNode != null) addr = addressNode.InnerText.Trim();
+
+            HtmlNode priceNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='price']");
+            string pric = "";
+            if (priceNode != null) pric = priceNode.InnerText.Trim();
+
+            HtmlNode saletypeNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='saleType']");
+            string stype = "";
+            if (saletypeNode != null) stype = saletypeNode.InnerText.Trim();
+
+            HtmlNode saledateNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='saleDate']");
+            string sdate = "";
+            if (saledateNode != null) sdate = saledateNode.InnerText.Trim();
+
+            HtmlNode landsizeNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='land']");
+            string land = "";
+            if (landsizeNode != null) land = landsizeNode.InnerText.Trim();
+
+            HtmlNode featureNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//p[@class='features']");
+            string feature = "";
+            if (featureNode != null) feature = featureNode.InnerText.Trim();
+
+            HtmlNode descriptionNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='cT-productDescription']");
+            string desc = "";
+            if (descriptionNode != null) desc = descriptionNode.InnerText.Trim();
+
+            Property p = new Property
+            {
+                pageUrl = e.CrawledPage.Uri.ToString(),
+                address = addr,
+                price = pric,
+                saleType = stype,
+                saleDate = sdate,
+                suburb = "",
+                landSize = land,
+                propertyFeature = feature,
+                propertyDescription = desc,
+                agents = ""
+            };
+
+            propertyContext.Properties.InsertOnSubmit(p);
+
+            try
+            {
+                propertyContext.SubmitChanges();
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex);
+                // Make some adjustments. 
+                // ... 
+                // Try again.
+                propertyContext.SubmitChanges();
             }
         }
 

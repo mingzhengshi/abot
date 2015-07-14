@@ -108,6 +108,11 @@
   <ItemGroup>
     <Compile Include="Core\AbotConfigurationSectionHandler.cs" />
     <Compile Include="Core\BloomFilterCrawledUrlRepository.cs" />
+    <Compile Include="Database\Property.designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Property.dbml</DependentUpon>
+    </Compile>
     <Compile Include="Database\WebPage.designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -157,6 +162,11 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="app.config" />
+    <None Include="Database\Property.dbml">
+      <Generator>MSLinqToSQLGenerator</Generator>
+      <LastGenOutput>Property.designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Database\WebPage.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>WebPage.designer.cs</LastGenOutput>
@@ -207,6 +217,11 @@
   <ItemGroup>
     <None Include="Database\WebPage.dbml.layout">
       <DependentUpon>WebPage.dbml</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Database\Property.dbml.layout">
+      <DependentUpon>Property.dbml</DependentUpon>
     </None>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
