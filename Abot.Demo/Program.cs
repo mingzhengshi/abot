@@ -17,8 +17,9 @@ namespace Abot.Demo
 {
     class Program
     {
-        private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
-            
+        //private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
+        private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Mingzheng\Documents\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
+  
         static void Main(string[] args)
         {
             log4net.Config.XmlConfigurator.Configure();
@@ -194,7 +195,11 @@ namespace Abot.Demo
             {
                 pageUrl = e.CrawledPage.Uri.ToString(),
                 parentUrl = e.CrawledPage.ParentUri.ToString(),
-                pageHtml = e.CrawledPage.Content.Text              
+                requestStartTime = e.CrawledPage.RequestStarted.ToString(),
+                requestEndTime = e.CrawledPage.RequestCompleted.ToString(),
+                downloadStartTime = e.CrawledPage.DownloadContentStarted.ToString(),
+                downloadEndTime = e.CrawledPage.DownloadContentCompleted.ToString(),
+                pageHtml = e.CrawledPage.Content.Text             
             };
 
             dbContext.WebPages.InsertOnSubmit(page);

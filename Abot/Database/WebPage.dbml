@@ -5,7 +5,11 @@
       <Column Name="pageId" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
       <Column Name="pageUrl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
       <Column Name="parentUrl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
-      <Column Name="pageHtml" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
+      <Column Name="requestStartTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="requestEndTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="downloadStartTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="downloadEndTime" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="pageHtml" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

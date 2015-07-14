@@ -86,6 +86,14 @@ namespace Abot.Database
 		
 		private string _parentUrl;
 		
+		private string _requestStartTime;
+		
+		private string _requestEndTime;
+		
+		private string _downloadStartTime;
+		
+		private string _downloadEndTime;
+		
 		private string _pageHtml;
 		
     #region Extensibility Method Definitions
@@ -98,6 +106,14 @@ namespace Abot.Database
     partial void OnpageUrlChanged();
     partial void OnparentUrlChanging(string value);
     partial void OnparentUrlChanged();
+    partial void OnrequestStartTimeChanging(string value);
+    partial void OnrequestStartTimeChanged();
+    partial void OnrequestEndTimeChanging(string value);
+    partial void OnrequestEndTimeChanged();
+    partial void OndownloadStartTimeChanging(string value);
+    partial void OndownloadStartTimeChanged();
+    partial void OndownloadEndTimeChanging(string value);
+    partial void OndownloadEndTimeChanged();
     partial void OnpageHtmlChanging(string value);
     partial void OnpageHtmlChanged();
     #endregion
@@ -167,7 +183,87 @@ namespace Abot.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageHtml", DbType="NVarChar(MAX) NOT NULL", CanBeNull=false)]
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_requestStartTime", DbType="NVarChar(50)")]
+		public string requestStartTime
+		{
+			get
+			{
+				return this._requestStartTime;
+			}
+			set
+			{
+				if ((this._requestStartTime != value))
+				{
+					this.OnrequestStartTimeChanging(value);
+					this.SendPropertyChanging();
+					this._requestStartTime = value;
+					this.SendPropertyChanged("requestStartTime");
+					this.OnrequestStartTimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_requestEndTime", DbType="NVarChar(50)")]
+		public string requestEndTime
+		{
+			get
+			{
+				return this._requestEndTime;
+			}
+			set
+			{
+				if ((this._requestEndTime != value))
+				{
+					this.OnrequestEndTimeChanging(value);
+					this.SendPropertyChanging();
+					this._requestEndTime = value;
+					this.SendPropertyChanged("requestEndTime");
+					this.OnrequestEndTimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_downloadStartTime", DbType="NVarChar(50)")]
+		public string downloadStartTime
+		{
+			get
+			{
+				return this._downloadStartTime;
+			}
+			set
+			{
+				if ((this._downloadStartTime != value))
+				{
+					this.OndownloadStartTimeChanging(value);
+					this.SendPropertyChanging();
+					this._downloadStartTime = value;
+					this.SendPropertyChanged("downloadStartTime");
+					this.OndownloadStartTimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_downloadEndTime", DbType="NVarChar(50)")]
+		public string downloadEndTime
+		{
+			get
+			{
+				return this._downloadEndTime;
+			}
+			set
+			{
+				if ((this._downloadEndTime != value))
+				{
+					this.OndownloadEndTimeChanging(value);
+					this.SendPropertyChanging();
+					this._downloadEndTime = value;
+					this.SendPropertyChanged("downloadEndTime");
+					this.OndownloadEndTimeChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_pageHtml", DbType="NVarChar(MAX)")]
 		public string pageHtml
 		{
 			get
