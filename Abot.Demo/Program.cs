@@ -200,6 +200,12 @@ namespace Abot.Demo
 
         static void crawler_ProcessPageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
         {
+            saveWebPage(e);
+            saveProperty(e);
+        }
+
+        static void saveWebPage(PageCrawlCompletedArgs e)
+        {
             // save to WebPage table
 
             //Process data
@@ -214,7 +220,7 @@ namespace Abot.Demo
                 requestEndTime = e.CrawledPage.RequestCompleted.ToString(),
                 downloadStartTime = e.CrawledPage.DownloadContentStarted.ToString(),
                 downloadEndTime = e.CrawledPage.DownloadContentCompleted.ToString(),
-                pageHtml = e.CrawledPage.Content.Text             
+                pageHtml = e.CrawledPage.Content.Text
             };
 
             webpageContext.WebPages.InsertOnSubmit(page);
@@ -231,7 +237,10 @@ namespace Abot.Demo
                 // Try again.
                 webpageContext.SubmitChanges();
             }
+        }
 
+        static void saveProperty(PageCrawlCompletedArgs e)
+        {
             // save to Property table
             var propertyContext = new PropertyDataContext(connectionString);
 
@@ -292,6 +301,7 @@ namespace Abot.Demo
                 propertyContext.SubmitChanges();
             }
         }
+
 
         static void crawler_PageLinksCrawlDisallowed(object sender, PageLinksCrawlDisallowedArgs e)
         {
