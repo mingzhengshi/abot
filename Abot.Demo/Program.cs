@@ -3,6 +3,7 @@ using Abot.Crawler;
 using Abot.Poco;
 using Abot.Database;
 using HtmlAgilityPack;
+using log4net;
 
 using System;
 using System.Data.Linq;
@@ -18,20 +19,21 @@ using System.ComponentModel;
 namespace Abot.Demo
 {
     class Program
-    {
-        //private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=E:\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
-        private static string connectionString = @"Data Source=(LocalDB)\v11.0;AttachDbFilename=C:\Users\Mingzheng\Documents\GitHub\abot\Abot\Database\webgraph.mdf;Integrated Security=True";
-  
+    {  
         static void Main(string[] args)
         {
             log4net.Config.XmlConfigurator.Configure();
             PrintDisclaimer();
-
-            string bd = AppDomain.CurrentDomain.BaseDirectory;
+          
+            ILog _logger = LogManager.GetLogger("AbotLogger");
+            _logger.Info("//--------------------------------------------------------------------");
+            _logger.Info("// crawler start");
+            _logger.Info("//--------------------------------------------------------------------");
+            //string bd = AppDomain.CurrentDomain.BaseDirectory;
 
             //Uri uriToCrawl = GetSiteToCrawl(args);
             //string rootUri = "http://www.monash.edu";
-            string rootUri = "http://www.domain.com.au/sold/31-tern-court-melton-vic-3337-2011911215?sp=2";
+            string rootUri = DemoParameters.rootUri;
             Uri uriToCrawl = new Uri(rootUri);
             IWebCrawler crawler;
 
@@ -39,6 +41,8 @@ namespace Abot.Demo
             //crawler = GetDefaultWebCrawler();
             //crawler = GetManuallyConfiguredWebCrawler();
             crawler = GetCustomBehaviorWebCrawler();
+
+            //crawler.LoadCrawledUrls();
 
             //Subscribe to any of these asynchronous events, there are also sychronous versions of each.
             //This is where you process data about specific events of the crawl
@@ -54,6 +58,9 @@ namespace Abot.Demo
             //Now go view the log.txt file that is in the same directory as this executable. It has
             //all the statements that you were trying to read in the console window :).
             //Not enough data being logged? Change the app.config file's log4net log level from "INFO" TO "DEBUG"
+            _logger.Info("//--------------------------------------------------------------------");
+            _logger.Info("// crawler end");
+            _logger.Info("//--------------------------------------------------------------------");
 
             PrintDisclaimer();
         }
@@ -74,7 +81,7 @@ namespace Abot.Demo
             config.IsRespectRobotsDotTextEnabled = false;
             config.IsUriRecrawlingEnabled = false;
             config.MaxConcurrentThreads = 10;
-            config.MaxPagesToCrawl = 10;
+            config.MaxPagesToCrawl = 100000;
             //config.MaxPagesToCrawlPerDomain = 10;
             //config.MaxPagesToCrawlPerDomain = 0;
             config.MinCrawlDelayPerDomainMilliSeconds = 2000;
@@ -99,20 +106,21 @@ namespace Abot.Demo
             //NOTE: This is lambda is run after the regular ICrawlDecsionMaker.ShouldCrawlPage method is run.
             crawler.ShouldCrawlPage((pageToCrawl, crawlContext) =>
             {
-                if (pageToCrawl.Uri.AbsoluteUri.Contains("ghost"))
-                    return new CrawlDecision { Allow = false, Reason = "Scared of ghosts" };
+                if (pageToCrawl.Uri.AbsoluteUri.Contains(DemoParameters.shouldCrawlPageParameter1) ||
+                    pageToCrawl.Uri.AbsoluteUri.Contains(DemoParameters.shouldCrawlPageParameter2))
+                    return new CrawlDecision { Allow = true };
 
-                return new CrawlDecision { Allow = true };
+                return new CrawlDecision { Allow = false, Reason = "Do not crawl pages that are not listing or sold pages" };
             });
 
             //Register a lambda expression that will tell Abot to not crawl links on any page that is not internal to the root uri.
             //NOTE: This lambda is run after the regular ICrawlDecsionMaker.ShouldCrawlPageLinks method is run
             crawler.ShouldCrawlPageLinks((crawledPage, crawlContext) =>
             {
-                if (!crawledPage.IsInternal)
-                    return new CrawlDecision { Allow = false, Reason = "We dont crawl links of external pages" };
+                if (crawledPage.Uri.AbsoluteUri.Contains(DemoParameters.shouldCrawlPageLinkParameter1))
+                    return new CrawlDecision { Allow = true };
 
-                return new CrawlDecision { Allow = true };
+                return new CrawlDecision { Allow = false, Reason = "Do not crawl page link in the sold page" };
             });
 
             return crawler;
@@ -193,15 +201,15 @@ namespace Abot.Demo
         static void crawler_ProcessPageCrawlStarting(object sender, PageCrawlStartingArgs e)
         {
             //Process data
-            int a = 1;
-            int b = 2;
-            int c = a + b;
+
         }
 
         static void crawler_ProcessPageCrawlCompleted(object sender, PageCrawlCompletedArgs e)
         {
             saveWebPage(e);
-            saveProperty(e);
+
+            if (e.CrawledPage.Uri.AbsoluteUri.Contains(DemoParameters.shouldSaveToPropertyTableParameter))
+                saveProperty(e);
         }
 
         static void saveWebPage(PageCrawlCompletedArgs e)
@@ -209,7 +217,7 @@ namespace Abot.Demo
             // save to WebPage table
 
             //Process data
-            var webpageContext = new WebPageDataContext(connectionString);
+            var webpageContext = new WebPageDataContext(DemoParameters.connectionString);
             //IEnumerable<WebPage> wp = dbContext.WebPages.OrderBy(c => c.pageUrl);
 
             WebPage page = new WebPage
@@ -220,7 +228,8 @@ namespace Abot.Demo
                 requestEndTime = e.CrawledPage.RequestCompleted.ToString(),
                 downloadStartTime = e.CrawledPage.DownloadContentStarted.ToString(),
                 downloadEndTime = e.CrawledPage.DownloadContentCompleted.ToString(),
-                pageHtml = e.CrawledPage.Content.Text
+                //pageHtml = e.CrawledPage.Content.Text
+                pageHtml = ""
             };
 
             webpageContext.WebPages.InsertOnSubmit(page);
@@ -242,7 +251,7 @@ namespace Abot.Demo
         static void saveProperty(PageCrawlCompletedArgs e)
         {
             // save to Property table
-            var propertyContext = new PropertyDataContext(connectionString);
+            var propertyContext = new PropertyDataContext(DemoParameters.connectionString);
 
             HtmlNode addressNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//span[@class='js-address']");
             string addr = "";
@@ -251,6 +260,10 @@ namespace Abot.Demo
             HtmlNode priceNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='price']");
             string pric = "";
             if (priceNode != null) pric = priceNode.InnerText.Trim();
+
+            HtmlNode propertytypeNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='propertytype']");
+            string ptype = "";
+            if (propertytypeNode != null) ptype = propertytypeNode.InnerText.Trim();
 
             HtmlNode saletypeNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//dd[@class='saleType']");
             string stype = "";
@@ -268,6 +281,14 @@ namespace Abot.Demo
             string feature = "";
             if (featureNode != null) feature = featureNode.InnerText.Trim();
 
+            HtmlNode agentNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//ul[@class='cB-agentList']");
+            string agentInfo = "";
+            if (agentNode != null) agentInfo = agentNode.InnerText.Trim();
+
+            HtmlNode schoolNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='schoolData']");
+            string school = "";
+            if (schoolNode != null) school = schoolNode.InnerText.Trim();
+
             HtmlNode descriptionNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='cT-productDescription']");
             string desc = "";
             if (descriptionNode != null) desc = descriptionNode.InnerText.Trim();
@@ -277,13 +298,15 @@ namespace Abot.Demo
                 pageUrl = e.CrawledPage.Uri.ToString(),
                 address = addr,
                 price = pric,
+                propertyType = ptype,
                 saleType = stype,
                 saleDate = sdate,
                 suburb = "",
                 landSize = land,
                 propertyFeature = feature,
-                propertyDescription = desc,
-                agents = ""
+                agents = agentInfo,
+                schoolData = school,
+                propertyDescription = desc
             };
 
             propertyContext.Properties.InsertOnSubmit(p);

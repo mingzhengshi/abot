@@ -33,6 +33,8 @@ namespace Abot.Core
         /// Clear all currently scheduled pages
         /// </summary>
         void Clear();
+
+        void AddCrawledUri(Uri crawledUri);
     }
 
     [Serializable]
@@ -82,6 +84,11 @@ namespace Abot.Core
 
             foreach (PageToCrawl page in pages)
                 Add(page);
+        }
+
+        public void AddCrawledUri(Uri crawledUri)
+        {
+            _crawledUrlRepo.AddIfNew(crawledUri);
         }
 
         public PageToCrawl GetNext()

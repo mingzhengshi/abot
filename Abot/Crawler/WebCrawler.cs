@@ -6,9 +6,11 @@ using System.Reflection;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Timers;
+using System.Linq;
 using Abot.Core;
 using Abot.Poco;
 using Abot.Util;
+using Abot.Database;
 using AutoMapper;
 using log4net;
 using Timer = System.Timers.Timer;
@@ -89,6 +91,8 @@ namespace Abot.Crawler
         /// </summary>
         /// <param name="decisionMaker delegate"></param>
         void IsInternalUri(Func<Uri, Uri, bool> decisionMaker);
+
+        void LoadCrawledUrls();
 
         /// <summary>
         /// Begins a crawl using the uri param
@@ -884,6 +888,19 @@ namespace Abot.Crawler
                     _crawlContext.CrawlCountByDomain[pageToCrawl.Uri.Authority] = domainCount + 1;
                 else
                     _crawlContext.CrawlCountByDomain.TryAdd(pageToCrawl.Uri.Authority, 1);
+            }
+        }
+
+        public void LoadCrawledUrls()
+        {
+            var propertyContext = new PropertyDataContext(DemoParameters.connectionString);
+            IQueryable<Property> properties =
+                from prop in propertyContext.Properties
+                select prop;
+
+            foreach (Property p in properties)
+            {
+                _scheduler.AddCrawledUri(new Uri(p.pageUrl));           
             }
         }
 

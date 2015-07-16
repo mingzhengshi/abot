@@ -6,13 +6,15 @@
       <Column Name="pageUrl" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
       <Column Name="address" Type="System.String" DbType="NVarChar(MAX) NOT NULL" CanBeNull="false" />
       <Column Name="price" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="propertyType" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
       <Column Name="saleType" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="saleDate" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="suburb" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
       <Column Name="landSize" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
       <Column Name="propertyFeature" Type="System.String" DbType="NVarChar(100) NOT NULL" CanBeNull="false" />
-      <Column Name="propertyDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
       <Column Name="agents" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="schoolData" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="propertyDescription" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
     </Type>
   </Table>
 </Database>

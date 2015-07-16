@@ -88,6 +88,8 @@ namespace Abot.Database
 		
 		private string _price;
 		
+		private string _propertyType;
+		
 		private string _saleType;
 		
 		private string _saleDate;
@@ -98,9 +100,11 @@ namespace Abot.Database
 		
 		private string _propertyFeature;
 		
-		private string _propertyDescription;
-		
 		private string _agents;
+		
+		private string _schoolData;
+		
+		private string _propertyDescription;
 		
     #region Extensibility Method Definitions
     partial void OnLoaded();
@@ -114,6 +118,8 @@ namespace Abot.Database
     partial void OnaddressChanged();
     partial void OnpriceChanging(string value);
     partial void OnpriceChanged();
+    partial void OnpropertyTypeChanging(string value);
+    partial void OnpropertyTypeChanged();
     partial void OnsaleTypeChanging(string value);
     partial void OnsaleTypeChanged();
     partial void OnsaleDateChanging(string value);
@@ -124,10 +130,12 @@ namespace Abot.Database
     partial void OnlandSizeChanged();
     partial void OnpropertyFeatureChanging(string value);
     partial void OnpropertyFeatureChanged();
-    partial void OnpropertyDescriptionChanging(string value);
-    partial void OnpropertyDescriptionChanged();
     partial void OnagentsChanging(string value);
     partial void OnagentsChanged();
+    partial void OnschoolDataChanging(string value);
+    partial void OnschoolDataChanged();
+    partial void OnpropertyDescriptionChanging(string value);
+    partial void OnpropertyDescriptionChanged();
     #endregion
 		
 		public Property()
@@ -211,6 +219,26 @@ namespace Abot.Database
 					this._price = value;
 					this.SendPropertyChanged("price");
 					this.OnpriceChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_propertyType", DbType="NVarChar(MAX)")]
+		public string propertyType
+		{
+			get
+			{
+				return this._propertyType;
+			}
+			set
+			{
+				if ((this._propertyType != value))
+				{
+					this.OnpropertyTypeChanging(value);
+					this.SendPropertyChanging();
+					this._propertyType = value;
+					this.SendPropertyChanged("propertyType");
+					this.OnpropertyTypeChanged();
 				}
 			}
 		}
@@ -315,26 +343,6 @@ namespace Abot.Database
 			}
 		}
 		
-		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_propertyDescription", DbType="NVarChar(MAX)")]
-		public string propertyDescription
-		{
-			get
-			{
-				return this._propertyDescription;
-			}
-			set
-			{
-				if ((this._propertyDescription != value))
-				{
-					this.OnpropertyDescriptionChanging(value);
-					this.SendPropertyChanging();
-					this._propertyDescription = value;
-					this.SendPropertyChanged("propertyDescription");
-					this.OnpropertyDescriptionChanged();
-				}
-			}
-		}
-		
 		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_agents", DbType="NVarChar(MAX)")]
 		public string agents
 		{
@@ -351,6 +359,46 @@ namespace Abot.Database
 					this._agents = value;
 					this.SendPropertyChanged("agents");
 					this.OnagentsChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_schoolData", DbType="NVarChar(MAX)")]
+		public string schoolData
+		{
+			get
+			{
+				return this._schoolData;
+			}
+			set
+			{
+				if ((this._schoolData != value))
+				{
+					this.OnschoolDataChanging(value);
+					this.SendPropertyChanging();
+					this._schoolData = value;
+					this.SendPropertyChanged("schoolData");
+					this.OnschoolDataChanged();
+				}
+			}
+		}
+		
+		[global::System.Data.Linq.Mapping.ColumnAttribute(Storage="_propertyDescription", DbType="NVarChar(MAX)")]
+		public string propertyDescription
+		{
+			get
+			{
+				return this._propertyDescription;
+			}
+			set
+			{
+				if ((this._propertyDescription != value))
+				{
+					this.OnpropertyDescriptionChanging(value);
+					this.SendPropertyChanging();
+					this._propertyDescription = value;
+					this.SendPropertyChanged("propertyDescription");
+					this.OnpropertyDescriptionChanged();
 				}
 			}
 		}
