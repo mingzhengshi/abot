@@ -894,13 +894,26 @@ namespace Abot.Crawler
         public void LoadCrawledUrls()
         {
             var propertyContext = new PropertyDataContext(DemoParameters.connectionString);
-            IQueryable<Property> properties =
-                from prop in propertyContext.Properties
-                select prop;
 
-            foreach (Property p in properties)
+            try
             {
-                _scheduler.AddCrawledUri(new Uri(p.pageUrl));           
+                IQueryable<Property> properties =
+                    from prop in propertyContext.Properties
+                    select prop;
+
+                foreach (Property p in properties)
+                {
+                    _scheduler.AddCrawledUri(new Uri(p.pageUrl));
+                }
+            }
+            catch
+            {
+                int e = 0;
+            }
+            finally
+            {
+                if (propertyContext != null)
+                    propertyContext.Dispose();
             }
         }
 

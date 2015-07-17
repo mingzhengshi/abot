@@ -42,7 +42,7 @@ namespace Abot.Demo
             //crawler = GetManuallyConfiguredWebCrawler();
             crawler = GetCustomBehaviorWebCrawler();
 
-            //crawler.LoadCrawledUrls();
+            crawler.LoadCrawledUrls();
 
             //Subscribe to any of these asynchronous events, there are also sychronous versions of each.
             //This is where you process data about specific events of the crawl
@@ -84,7 +84,7 @@ namespace Abot.Demo
             config.MaxPagesToCrawl = 100000;
             //config.MaxPagesToCrawlPerDomain = 10;
             //config.MaxPagesToCrawlPerDomain = 0;
-            config.MinCrawlDelayPerDomainMilliSeconds = 2000;
+            config.MinCrawlDelayPerDomainMilliSeconds = 1000;
 
             //Add you own values without modifying Abot's source code.
             //These are accessible in CrawlContext.CrawlConfuration.ConfigurationException object throughout the crawl
@@ -246,6 +246,11 @@ namespace Abot.Demo
                 // Try again.
                 webpageContext.SubmitChanges();
             }
+            finally
+            {
+                if (webpageContext != null)
+                    webpageContext.Dispose();
+            }
         }
 
         static void saveProperty(PageCrawlCompletedArgs e)
@@ -285,7 +290,7 @@ namespace Abot.Demo
             string agentInfo = "";
             if (agentNode != null) agentInfo = agentNode.InnerText.Trim();
 
-            HtmlNode schoolNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='schoolData']");
+            HtmlNode schoolNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//div[@class='schoolData bdy collapsible collapsed']");
             string school = "";
             if (schoolNode != null) school = schoolNode.InnerText.Trim();
 
@@ -322,6 +327,11 @@ namespace Abot.Demo
                 // ... 
                 // Try again.
                 propertyContext.SubmitChanges();
+            }
+            finally
+            {
+                if (propertyContext != null)
+                    propertyContext.Dispose();
             }
         }
 
