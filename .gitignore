@@ -1,7 +1,7 @@
 bin/
 obj/
 DemoParameters.cs
-
+Database/
 
 
 # Windows image file caches
