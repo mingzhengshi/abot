@@ -893,8 +893,8 @@ namespace Abot.Crawler
 
         public void LoadCrawledUrls()
         {
-            var propertyContext = new PropertyDataContext();
-
+            var propertyContext = new PropertyDataContext(DemoParameters.connectionString);
+            //var propertyContext = new PropertyDataContext();
             try
             {
                 IQueryable<Property> properties =

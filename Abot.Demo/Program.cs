@@ -217,7 +217,8 @@ namespace Abot.Demo
             // save to WebPage table
 
             //Process data
-            var webpageContext = new WebPageDataContext();
+            var webpageContext = new WebPageDataContext(DemoParameters.connectionString);
+            //var webpageContext = new WebPageDataContext();
             //IEnumerable<WebPage> wp = dbContext.WebPages.OrderBy(c => c.pageUrl);
 
             WebPage page = new WebPage
@@ -256,7 +257,8 @@ namespace Abot.Demo
         static void saveProperty(PageCrawlCompletedArgs e)
         {
             // save to Property table
-            var propertyContext = new PropertyDataContext();
+            var propertyContext = new PropertyDataContext(DemoParameters.connectionString);
+            //var propertyContext = new PropertyDataContext();
 
             HtmlNode addressNode = e.CrawledPage.HtmlDocument.DocumentNode.SelectSingleNode("//span[@class='js-address']");
             string addr = "";

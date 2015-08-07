@@ -162,7 +162,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="app.config" />
+    <None Include="app.config">
+      <SubType>Designer</SubType>
+    </None>
     <None Include="Database\Property.dbml">
       <Generator>MSLinqToSQLGenerator</Generator>
       <LastGenOutput>Property.designer.cs</LastGenOutput>
@@ -179,9 +181,17 @@
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
     </None>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="App_Data\TestDB.mdf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="App_Data\TestDB_log.ldf">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      <DependentUpon>TestDB.mdf</DependentUpon>
+    </Content>
     <Content Include="Database\webgraph.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
